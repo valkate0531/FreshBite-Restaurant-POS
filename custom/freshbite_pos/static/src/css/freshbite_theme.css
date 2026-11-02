@@ -1,0 +1,75 @@
+:root {
+    --freshbite-primary: #2e7d32;
+    --freshbite-primary-dark: #1b5e20;
+    --freshbite-secondary: #a5d6a7;
+    --freshbite-background: #f8faf7;
+    --freshbite-accent: #f4a340;
+    --freshbite-text: #263238;
+    --freshbite-border: #d7e5d8;
+}
+
+body {
+    --o-brand-odoo: var(--freshbite-primary);
+    --o-brand-primary: var(--freshbite-primary);
+    --o-brand-primary-dark: var(--freshbite-primary-dark);
+    --o-brand-secondary: var(--freshbite-secondary);
+    --o-main-text-color: var(--freshbite-text);
+    --o-view-background-color: var(--freshbite-background);
+    --o-form-control-border-color: var(--freshbite-border);
+}
+
+.o_web_client,
+.o_action_manager,
+.pos {
+    color: var(--freshbite-text);
+}
+
+.o_main_navbar {
+    background-color: var(--freshbite-primary);
+}
+
+.btn-primary {
+    --btn-bg: var(--freshbite-primary);
+    --btn-border-color: var(--freshbite-primary);
+    --btn-hover-bg: var(--freshbite-primary-dark);
+    --btn-hover-border-color: var(--freshbite-primary-dark);
+}
+
+.oe_login_form,
+.o_database_list {
+    color: var(--freshbite-text);
+}
+
+.oe_login_form .btn-primary {
+    background-color: var(--freshbite-primary);
+    border-color: var(--freshbite-primary);
+}
+
+.oe_login_form .btn-primary:hover,
+.oe_login_form .btn-primary:focus {
+    background-color: var(--freshbite-primary-dark);
+    border-color: var(--freshbite-primary-dark);
+}
+
+.freshbite-login-logo {
+    display: block;
+    width: min(100%, 260px);
+    height: auto;
+    max-height: 120px;
+    margin: 0 auto;
+}
+
+.freshbite-brand-logo {
+    width: min(100%, 280px);
+    height: auto;
+}
+
+.freshbite-login-name,
+.freshbite-brand-promotion {
+    color: var(--freshbite-primary-dark);
+    font-weight: 600;
+}
+
+.o_brand_promotion img {
+    display: none;
+}

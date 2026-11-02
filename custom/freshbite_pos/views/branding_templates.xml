@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="freshbite_web_layout" inherit_id="web.layout" name="FreshBite Web Layout">
+        <xpath expr="//title" position="replace">
+            <title>FreshBite Restaurant</title>
+        </xpath>
+        <xpath expr="//link[@rel='shortcut icon']" position="replace">
+            <link type="image/svg+xml" rel="icon" t-att-href="'/freshbite_pos/static/src/img/freshbite_logo.svg'"/>
+        </xpath>
+    </template>
+
+    <template id="freshbite_frontend_layout" inherit_id="web.frontend_layout" name="FreshBite Frontend Layout">
+        <xpath expr="//header//img[@alt='Logo']" position="replace">
+            <img class="img-responsive d-block mx-auto freshbite-brand-logo"
+                 src="/freshbite_pos/static/src/img/freshbite_logo.svg"
+                 alt="FreshBite Restaurant"/>
+        </xpath>
+    </template>
+
+    <template id="freshbite_login_layout" inherit_id="web.login_layout" name="FreshBite Login Layout">
+        <xpath expr="//div[contains(@class, 'text-center') and contains(@class, 'border-bottom')]/img" position="replace">
+            <img class="freshbite-login-logo"
+                 src="/freshbite_pos/static/src/img/freshbite_logo.svg"
+                 alt="FreshBite Restaurant"/>
+        </xpath>
+        <xpath expr="//a[contains(@href, 'odoo.com')]" position="replace">
+            <span class="freshbite-login-name">FreshBite Restaurant</span>
+        </xpath>
+    </template>
+
+    <template id="freshbite_brand_promotion" inherit_id="web.brand_promotion_message" name="FreshBite Brand Promotion">
+        <xpath expr="." position="replace">
+            <span class="freshbite-brand-promotion">FreshBite Restaurant</span>
+        </xpath>
+    </template>
+</odoo>

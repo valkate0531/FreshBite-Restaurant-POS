@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+    <title id="title">FreshBite Restaurant</title>
+    <desc id="desc">A green leaf and orange bowl icon beside the FreshBite Restaurant name.</desc>
+    <g transform="translate(24 18)">
+        <path fill="#2E7D32" d="M92 12C50 19 17 47 10 92c34 7 66-8 83-35 9-15 12-31 12-45-4 0-8 0-13 0Z"/>
+        <path fill="#A5D6A7" d="M91 31C65 44 43 63 28 91c26-3 49-18 63-39 6-9 10-18 12-27-4 2-8 4-12 6Z"/>
+        <path fill="#F4A340" d="M17 99c8 28 35 45 68 45s60-17 68-45H17Z"/>
+        <path fill="#2E7D32" d="M24 99h122c-8-10-21-16-36-16H60c-15 0-28 6-36 16Z"/>
+        <path fill="none" stroke="#1B5E20" stroke-linecap="round" stroke-width="8" d="M38 151h94"/>
+    </g>
+    <text x="205" y="92" fill="#2E7D32" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">FreshBite</text>
+    <text x="209" y="132" fill="#263238" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="4">RESTAURANT</text>
+</svg>

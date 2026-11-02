@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">FreshBite Restaurant</title>
+  <desc id="desc">A green leaf above an orange plate</desc>
+  <rect width="256" height="256" rx="40" fill="#f8faf7"/>
+  <path d="M128 145c-34-7-55-29-58-70 39 1 66 15 76 43 7-30 27-51 64-58-2 48-27 79-70 85v31h-12z" fill="#2e7d32"/>
+  <path d="M60 187h136" stroke="#f4a340" stroke-width="14" stroke-linecap="round"/>
+  <path d="M78 187c5 22 24 34 50 34s45-12 50-34" fill="none" stroke="#f4a340" stroke-width="8" stroke-linecap="round"/>
+</svg>
